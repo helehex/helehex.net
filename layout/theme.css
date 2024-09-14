@@ -1,0 +1,223 @@
+body {
+    background-image: url("https://helehex.net/images/body.png");
+    background-position: 50% 0;
+    background-size: 100rem 100rem;
+    background-color: #c2ae82;
+    color: #767260;
+}
+
+header {
+    background-color: #71440c;
+    box-shadow: 0px 1px 4px 2px #1e140a;
+}
+
+.logo {
+    font-size: 40rem;
+    color: #d6940c;
+    text-shadow: 0 2px 3px #32281e;
+}
+
+.logo:hover {
+    color: #fcc40c;
+}
+
+.logo img {
+    width: 48rem;
+    height: 48rem;
+    margin: 2rem 0;
+}
+
+.ends {
+    color: #00000010;
+    text-shadow: 0 6px 2px #c2ae82, 0 -6px 2px #c2ae82, 6px 0 2px #c2ae82,
+        -6px 0 2px #c2ae82;
+}
+
+.card {
+    background-color: #6c5e47;
+    box-shadow: 0px 1px 4px 1px #000000d0;
+}
+
+.card a h1 {
+    color: #d6940c;
+}
+
+.card:hover a h1 {
+    color: #fcc40c;
+}
+
+.card section {
+    background-color: #d6cda3;
+}
+
+.free {
+    vertical-align: middle;
+    font-size: 12rem;
+    letter-spacing: 0.15em;
+    background-color: #767260;
+    color: #e6e1be;
+    padding: 4rem 6rem;
+    border-radius: 8rem 0;
+    margin-left: 6rem;
+}
+
+.downloads a {
+    background-color: #d6940c;
+}
+
+.form {
+    display: flow-root;
+    max-width: 300rem;
+    padding: 20rem 20rem 0 20rem;
+    border-radius: 14rem;
+    margin: 28rem auto;
+    background-color: #d5b150;
+    box-shadow: 0px 2px 6px #000000b0;
+}
+
+.form h1 {
+    display: inline;
+    font-size: 28rem;
+    letter-spacing: 0.05em;
+    color: #00000090;
+}
+
+.form .textbox {
+    display: block;
+    text-align: center;
+    font-size: 20rem;
+    font-weight: bold;
+    color: #00000080;
+    margin-bottom: 20rem;
+}
+
+.form .textbox input {
+    user-select: text;
+    font-family: inherit;
+    width: 100%;
+    background-color: #503615;
+    text-align: center;
+    font-size: 20rem;
+    color: #d6940c;
+    padding: 4rem;
+    border-radius: 12rem;
+    box-shadow: inset 0px 2px 4px #000000b0;
+    transition: background-color 0.1s ease-out;
+}
+
+.form .textbox input:hover,
+.form .textbox input:focus,
+.profile textarea:hover,
+.profile textarea:focus {
+    background-color: #59421c;
+    color: #fcc40c;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20rem;
+    padding: 20rem 20rem 0 20rem;
+    border-radius: 14rem;
+    margin-bottom: 28rem;
+    background-color: #d5b150;
+    box-shadow: 0px 2px 6px #000000b0;
+}
+
+.profile .left {
+    float: left;
+    margin-bottom: 20rem;
+}
+
+.profile .left .user {
+    padding: 8rem;
+}
+
+.profile .left .user img {
+    width: 80rem;
+    height: 80rem;
+}
+
+.profile .right {
+    flex-grow: 1;
+}
+
+.profile .right .username {
+    color: #000000b0;
+    font-size: 26rem;
+    font-weight: bold;
+}
+
+.profile .right p {
+    white-space: pre-line;
+    font-size: 18rem;
+    color: #00000080;
+    font-weight: bold;
+    padding: 8rem;
+    margin-bottom: 20rem;
+}
+
+.profile textarea {
+    white-space: pre-line;
+    resize: none;
+    user-select: text;
+    width: 100%;
+    min-height: 420rem;
+    background-color: #503615;
+    font-size: 18rem;
+    color: #d6940c;
+    padding: 8rem;
+    border-radius: 12rem;
+    margin-bottom: 20rem;
+    box-shadow: inset 0px 2px 4px #000000b0;
+    transition: background-color 0.1s ease-out;
+}
+
+.search-bar,
+.search select,
+.write-news .room,
+.write-news textarea {
+    background-color: #564b39;
+    color: #d6940c;
+}
+
+.search-bar:hover,
+.search-bar:focus,
+.search select:hover,
+.search select:focus,
+.write-news .room:hover,
+.write-news .room:focus,
+.write-news textarea:hover,
+.write-news textarea:focus {
+    background-color: #6c5e47;
+    color: #fcc40c;
+}
+
+article {
+    background-color: #58534e;
+}
+
+.button,
+.right-button,
+.center-button {
+    background-color: #d6940c;
+}
+
+.button:hover,
+.right-button:hover,
+.center-button:hover {
+    background-color: #fcc40c;
+}
+
+::selection {
+    background-color: #99480e;
+    color: #ffffffd0;
+}
+
+footer {
+    background-color: #1e140a;
+    color: #c2ae82;
+    box-shadow: 0px 0px 4px 1px #463c32;
+}

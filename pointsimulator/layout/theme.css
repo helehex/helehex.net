@@ -1,0 +1,105 @@
+body {
+    background-image: url("https://helehex.net/pointsimulator/images/body.png");
+    background-position: 50% 0;
+    background-size: 100rem 100rem;
+    background-color: #1f1e1d;
+    color: #5f7561;
+}
+
+header {
+    background-color: #585653;
+    box-shadow: 0px 1px 4px 2px #000000;
+}
+
+.logo {
+    font-size: 30rem;
+    font-weight: bold;
+    color: #28b225;
+    text-shadow: 0 1px 2px #1f1e1d;
+}
+
+.logo:hover {
+    color: #15deb3;
+}
+
+.logo img {
+    width: 38rem;
+    height: 38rem;
+    margin: 6rem;
+}
+
+.ends {
+    color: #ffffff08;
+    text-shadow: 0 6px 2px #1f1e1d, 0 -6px 2px #1f1e1d, 6px 0 2px #1f1e1d,
+        -6px 0 2px #1f1e1d;
+}
+
+.card,
+.home {
+    box-shadow: 0px 1px 4px 1px #000000;
+}
+
+.card {
+    background-color: #556046;
+}
+
+.card a h1,
+.card section h2 a {
+    color: #28b225;
+}
+
+.card:hover a h1,
+.card section h2 a:hover {
+    color: #15deb3;
+}
+
+.card section {
+    background-color: #b8cfae;
+}
+
+.search-bar,
+.search select,
+.write-news .room,
+.write-news textarea {
+    background-color: #49533c;
+    color: #28b225;
+}
+
+.search-bar:hover,
+.search-bar:focus,
+.search select:hover,
+.search select:focus,
+.write-news .room:hover,
+.write-news .room:focus,
+.write-news textarea:hover,
+.write-news textarea:focus {
+    background-color: #556046;
+    color: #15deb3;
+}
+
+article {
+    background-color: #54584e;
+}
+
+.button,
+.right-button,
+.center-button {
+    background-color: #28b225;
+}
+
+.button:hover,
+.right-button:hover,
+.center-button:hover {
+    background-color: #15deb3;
+}
+
+::selection {
+    background-color: #0e9982;
+    color: #ffffffd0;
+}
+
+footer {
+    background-color: #111e0f;
+    color: #c2ae82;
+    box-shadow: 0px 0px 4px 1px #000000;
+}
