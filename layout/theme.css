@@ -35,7 +35,7 @@ header {
 
 .card {
     background-color: #6c5e47;
-    box-shadow: 0px 1px 4px 1px #000000d0;
+    box-shadow: 0px 1px 3px 1px #000000d0;
 }
 
 .card a h1 {
@@ -44,6 +44,14 @@ header {
 
 .card:hover a h1 {
     color: #fcc40c;
+}
+
+.card p a {
+    color: #c8890b;
+}
+
+.card p a:hover {
+    color: #dbae0c;
 }
 
 .card section {
